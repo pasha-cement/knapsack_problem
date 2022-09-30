@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E93B448228E3341F006FCD8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E93B448128E3341F006FCD8D /* main.cpp */; };
+		E9FF19E028E75EF800F10319 /* item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9FF19D628E75EF800F10319 /* item.cpp */; };
+		E9FF19E128E75EF800F10319 /* mdckproblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9FF19D828E75EF800F10319 /* mdckproblem.cpp */; };
+		E9FF19E228E75EF800F10319 /* knapsack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9FF19DA28E75EF800F10319 /* knapsack.cpp */; };
+		E9FF19E328E75EF800F10319 /* naive_algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9FF19DB28E75EF800F10319 /* naive_algorithm.cpp */; };
+		E9FF19E428E75EF800F10319 /* mdckp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9FF19DC28E75EF800F10319 /* mdckp.cpp */; };
+		E9FF19E628E75EFD00F10319 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9FF19E528E75EFD00F10319 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E93B447C28E3341F006FCD8D /* CopyFiles */ = {
+		E9FF19CA28E75EE000F10319 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +28,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E93B447E28E3341F006FCD8D /* knapsack_Problem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = knapsack_Problem; sourceTree = BUILT_PRODUCTS_DIR; };
-		E93B448128E3341F006FCD8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E9FF19CC28E75EE000F10319 /* knapsack_problem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = knapsack_problem; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FF19D628E75EF800F10319 /* item.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = item.cpp; path = ../../../Desktop/knapsack_problem/knapsack_problem/item.cpp; sourceTree = "<group>"; };
+		E9FF19D728E75EF800F10319 /* item.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = item.hpp; path = ../../../Desktop/knapsack_problem/knapsack_problem/item.hpp; sourceTree = "<group>"; };
+		E9FF19D828E75EF800F10319 /* mdckproblem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mdckproblem.cpp; path = ../../../Desktop/knapsack_problem/knapsack_problem/mdckproblem.cpp; sourceTree = "<group>"; };
+		E9FF19D928E75EF800F10319 /* naive_algorithm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = naive_algorithm.hpp; path = ../../../Desktop/knapsack_problem/knapsack_problem/naive_algorithm.hpp; sourceTree = "<group>"; };
+		E9FF19DA28E75EF800F10319 /* knapsack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = knapsack.cpp; path = ../../../Desktop/knapsack_problem/knapsack_problem/knapsack.cpp; sourceTree = "<group>"; };
+		E9FF19DB28E75EF800F10319 /* naive_algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = naive_algorithm.cpp; path = ../../../Desktop/knapsack_problem/knapsack_problem/naive_algorithm.cpp; sourceTree = "<group>"; };
+		E9FF19DC28E75EF800F10319 /* mdckp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mdckp.cpp; path = ../../../Desktop/knapsack_problem/knapsack_problem/mdckp.cpp; sourceTree = "<group>"; };
+		E9FF19DD28E75EF800F10319 /* mdckp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mdckp.hpp; path = ../../../Desktop/knapsack_problem/knapsack_problem/mdckp.hpp; sourceTree = "<group>"; };
+		E9FF19DE28E75EF800F10319 /* mdckproblem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mdckproblem.hpp; path = ../../../Desktop/knapsack_problem/knapsack_problem/mdckproblem.hpp; sourceTree = "<group>"; };
+		E9FF19DF28E75EF800F10319 /* knapsack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = knapsack.hpp; path = ../../../Desktop/knapsack_problem/knapsack_problem/knapsack.hpp; sourceTree = "<group>"; };
+		E9FF19E528E75EFD00F10319 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../Desktop/knapsack_problem/knapsack_problem/main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E93B447B28E3341F006FCD8D /* Frameworks */ = {
+		E9FF19C928E75EE000F10319 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +53,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E93B447528E3341F006FCD8D = {
+		E9FF19C328E75EE000F10319 = {
 			isa = PBXGroup;
 			children = (
-				E93B448028E3341F006FCD8D /* knapsack_Problem */,
-				E93B447F28E3341F006FCD8D /* Products */,
+				E9FF19CE28E75EE000F10319 /* knapsack_problem */,
+				E9FF19CD28E75EE000F10319 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E93B447F28E3341F006FCD8D /* Products */ = {
+		E9FF19CD28E75EE000F10319 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E93B447E28E3341F006FCD8D /* knapsack_Problem */,
+				E9FF19CC28E75EE000F10319 /* knapsack_problem */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E93B448028E3341F006FCD8D /* knapsack_Problem */ = {
+		E9FF19CE28E75EE000F10319 /* knapsack_problem */ = {
 			isa = PBXGroup;
 			children = (
-				E93B448128E3341F006FCD8D /* main.cpp */,
+				E9FF19E528E75EFD00F10319 /* main.cpp */,
+				E9FF19D628E75EF800F10319 /* item.cpp */,
+				E9FF19D728E75EF800F10319 /* item.hpp */,
+				E9FF19DA28E75EF800F10319 /* knapsack.cpp */,
+				E9FF19DF28E75EF800F10319 /* knapsack.hpp */,
+				E9FF19DC28E75EF800F10319 /* mdckp.cpp */,
+				E9FF19DD28E75EF800F10319 /* mdckp.hpp */,
+				E9FF19D828E75EF800F10319 /* mdckproblem.cpp */,
+				E9FF19DE28E75EF800F10319 /* mdckproblem.hpp */,
+				E9FF19DB28E75EF800F10319 /* naive_algorithm.cpp */,
+				E9FF19D928E75EF800F10319 /* naive_algorithm.hpp */,
 			);
-			path = knapsack_Problem;
+			path = knapsack_problem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E93B447D28E3341F006FCD8D /* knapsack_Problem */ = {
+		E9FF19CB28E75EE000F10319 /* knapsack_problem */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E93B448528E3341F006FCD8D /* Build configuration list for PBXNativeTarget "knapsack_Problem" */;
+			buildConfigurationList = E9FF19D328E75EE000F10319 /* Build configuration list for PBXNativeTarget "knapsack_problem" */;
 			buildPhases = (
-				E93B447A28E3341F006FCD8D /* Sources */,
-				E93B447B28E3341F006FCD8D /* Frameworks */,
-				E93B447C28E3341F006FCD8D /* CopyFiles */,
+				E9FF19C828E75EE000F10319 /* Sources */,
+				E9FF19C928E75EE000F10319 /* Frameworks */,
+				E9FF19CA28E75EE000F10319 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = knapsack_Problem;
-			productName = knapsack_Problem;
-			productReference = E93B447E28E3341F006FCD8D /* knapsack_Problem */;
+			name = knapsack_problem;
+			productName = knapsack_problem;
+			productReference = E9FF19CC28E75EE000F10319 /* knapsack_problem */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E93B447628E3341F006FCD8D /* Project object */ = {
+		E9FF19C428E75EE000F10319 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					E93B447D28E3341F006FCD8D = {
+					E9FF19CB28E75EE000F10319 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = E93B447928E3341F006FCD8D /* Build configuration list for PBXProject "knapsack_Problem" */;
+			buildConfigurationList = E9FF19C728E75EE000F10319 /* Build configuration list for PBXProject "knapsack_problem" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +129,34 @@
 				en,
 				Base,
 			);
-			mainGroup = E93B447528E3341F006FCD8D;
-			productRefGroup = E93B447F28E3341F006FCD8D /* Products */;
+			mainGroup = E9FF19C328E75EE000F10319;
+			productRefGroup = E9FF19CD28E75EE000F10319 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E93B447D28E3341F006FCD8D /* knapsack_Problem */,
+				E9FF19CB28E75EE000F10319 /* knapsack_problem */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E93B447A28E3341F006FCD8D /* Sources */ = {
+		E9FF19C828E75EE000F10319 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E93B448228E3341F006FCD8D /* main.cpp in Sources */,
+				E9FF19E128E75EF800F10319 /* mdckproblem.cpp in Sources */,
+				E9FF19E328E75EF800F10319 /* naive_algorithm.cpp in Sources */,
+				E9FF19E628E75EFD00F10319 /* main.cpp in Sources */,
+				E9FF19E028E75EF800F10319 /* item.cpp in Sources */,
+				E9FF19E428E75EF800F10319 /* mdckp.cpp in Sources */,
+				E9FF19E228E75EF800F10319 /* knapsack.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E93B448328E3341F006FCD8D /* Debug */ = {
+		E9FF19D128E75EE000F10319 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		E93B448428E3341F006FCD8D /* Release */ = {
+		E9FF19D228E75EE000F10319 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +265,7 @@
 			};
 			name = Release;
 		};
-		E93B448628E3341F006FCD8D /* Debug */ = {
+		E9FF19D428E75EE000F10319 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -245,7 +275,7 @@
 			};
 			name = Debug;
 		};
-		E93B448728E3341F006FCD8D /* Release */ = {
+		E9FF19D528E75EE000F10319 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -258,25 +288,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E93B447928E3341F006FCD8D /* Build configuration list for PBXProject "knapsack_Problem" */ = {
+		E9FF19C728E75EE000F10319 /* Build configuration list for PBXProject "knapsack_problem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E93B448328E3341F006FCD8D /* Debug */,
-				E93B448428E3341F006FCD8D /* Release */,
+				E9FF19D128E75EE000F10319 /* Debug */,
+				E9FF19D228E75EE000F10319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E93B448528E3341F006FCD8D /* Build configuration list for PBXNativeTarget "knapsack_Problem" */ = {
+		E9FF19D328E75EE000F10319 /* Build configuration list for PBXNativeTarget "knapsack_problem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E93B448628E3341F006FCD8D /* Debug */,
-				E93B448728E3341F006FCD8D /* Release */,
+				E9FF19D428E75EE000F10319 /* Debug */,
+				E9FF19D528E75EE000F10319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E93B447628E3341F006FCD8D /* Project object */;
+	rootObject = E9FF19C428E75EE000F10319 /* Project object */;
 }
