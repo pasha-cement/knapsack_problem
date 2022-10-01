@@ -1,3 +1,8 @@
+//
+//  knapsack_problem
+//
+//  Created by Павел
+//
 #ifndef KNAPSACK_HPP
 #define KNAPSACK_HPP
 

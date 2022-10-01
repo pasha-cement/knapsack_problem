@@ -1,3 +1,8 @@
+//
+//  knapsack_problem
+//
+//  Created by Павел
+//
 #ifndef MDCKP_HPP
 #define MDCKP_HPP
 

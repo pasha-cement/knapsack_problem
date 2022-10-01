@@ -1,3 +1,8 @@
+//
+//  knapsack_problem
+//
+//  Created by Павел
+//
 all: knapsack_problem
 
 knapsack_problem: main.o item.o knapsack.o mdckp.o mdckproblem.o naive_algorithm.o

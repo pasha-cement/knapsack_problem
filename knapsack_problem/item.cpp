@@ -1,3 +1,8 @@
+//
+//  knapsack_problem
+//
+//  Created by Павел
+//
 #include "item.hpp"
 
 namespace mdckp{

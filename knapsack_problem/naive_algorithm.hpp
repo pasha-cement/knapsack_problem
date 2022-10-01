@@ -1,3 +1,8 @@
+//
+//  knapsack_problem
+//
+//  Created by Павел
+//
 #ifndef NAIVE_ALGORITHM_HPP
 #define NAIVE_ALGORITHM_HPP
 
