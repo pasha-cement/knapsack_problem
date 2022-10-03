@@ -8,7 +8,7 @@
 #include "mdckp.hpp"
 
 
-int main()
+int main(int argc, char* argv[]){
 {
     mdckp::MDCKProblem p = mdckp::MDCKProblem::readFromIstream(std::cin);
     mdckp::solve(p);
